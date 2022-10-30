@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: var(--VeryDarkBlue);
+    color: var(--LightGrey);
+    line-height: 1.5em;
+}
+
+.content {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(30, 37, 47) 0%, rgb(25, 29, 38) 100%);
+}
+
+.icon-star {
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgb(40, 47, 57) 0%, rgb(38, 47, 56) 100%);
+}
+
+.question {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.options {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.options li {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgb(40, 47, 57) 0%, rgb(38, 47, 56) 100%);
+}
+
+.options li:hover {
+    background: var(--Orange);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.options li.active {
+    background: var(--MediumGrey);
+    color: var(--White);
+}
+
+.button {
+    all: unset;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: var(--White);
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    background: var(--Orange);
+}
+
+.button:hover {
+    background: var(--White);
+    color: var(--Orange);
+    cursor: pointer;
+}
+
+.thank-you-image {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.selectetion-texts {
+    display: inline-block;
+    background: linear-gradient(180deg, rgb(40, 47, 57) 0%, rgb(38, 47, 56) 100%);
+    color: var(--Orange);
+    padding: 7px 20px;
+    border-radius: 50px;
+}
+
+.thank-you-text {
+    color: var(--White);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution p {
+    line-height: 1.3em;
+    font-weight: 700;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--White);
+}
