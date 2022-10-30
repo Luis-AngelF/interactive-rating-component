@@ -18,7 +18,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ![](files/preview.png)
 
 ### Links
-- Live Site URL: [Netlify]()
+- Live Site URL: [Netlify](https://resilient-smakager-8d6dc2.netlify.app)
 
 ## My Process
 
